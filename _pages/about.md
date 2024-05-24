@@ -33,4 +33,5 @@ Hieu Nguyen is an incoming PhD student at The Chinese University of Hong Kong (C
 
 
 # 🏵️ Honors and Awards
-- *September 2018 - April 2022*: Honor Student Scholarship for all Academic Years - HCM-UIT
+- *April 2022*: Bachelors Thesis with highest score! 
+- *September 2018 - April 2022*: Honor Student Scholarship for all Academic Years - UIT

@@ -9,7 +9,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 # About me
-Hieu Nguyen is an incoming PhD student at The Chinese University of Hong Kong (CUHK), advised by [Prof. Viet Anh Nguyen](https://www.vietanhnguyen.net/). Previously, he was a Research Resident at Vinai, Hanoi, Vietnam (Batch 8). He earns a Bachelors Degree at HCM University of Information Technology (UIT) - Vietnam National University, under supervised by [Dr. Ngoc Hoang Luong](https://sites.google.com/view/hoangluong).
+Hieu Nguyen is an incoming PhD student at The Chinese University of Hong Kong (CUHK), advised by [Prof. Viet Anh Nguyen](https://www.vietanhnguyen.net/). Previously, he was a Research Resident at VinAI, Hanoi, Vietnam (Batch 8). He earns a Bachelors Degree at HCM University of Information Technology (UIT) - Vietnam National University, under supervised by [Dr. Ngoc Hoang Luong](https://sites.google.com/view/hoangluong).
 
 
 <span class='anchor' id='news'></span>
@@ -22,7 +22,7 @@ Hieu Nguyen is an incoming PhD student at The Chinese University of Hong Kong (C
 - 2 papers are accepted at ICML 2024
 
 *July 2022*:
-- Started a wonderful journey at Vinai Research
+- Started a wonderful journey at VinAI Research
 
 # 📜 Publications
 1. Cold-start Recommendation by Personalized Embedding Region Elicitation, with Duy Nguyen, Khoa Doan and Viet Anh Nguyen. UAI 2024.

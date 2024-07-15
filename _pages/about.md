@@ -31,6 +31,10 @@ Hieu Nguyen is an incoming PhD student at The Chinese University of Hong Kong (C
 
 3. Generative Conditional Distributions by Neural (Entropic) Optimal Transport, with Bao Nguyen, Binh Nguyen, and Viet Anh Nguyen. ICML 2024.
 
+4. Forget but Recall: Incremental Latent Rectification in Continual Learning, with Nghia D. Nguyen, Ang Li, Hoang Pham, Viet Anh Nguyen, Khoa D. Doan. Preprint
+
+5. Combining Soft-Actor Critic with Cross-Entropy Method for Policy Search in Continuous Control, with Khang Tran and Ngoc Hoang Luong. IEEE CEC 2022 (Oral)
+
 
 # 🏵️ Honors and Awards
 - *April 2022*: Bachelors Thesis with highest score! 

@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Hieu T. Nguyen"
+title                    : "Hieu Trung Nguyen"
 title_separator          : "-"
-name                     : &name "Hieu T. Nguyen"
+name                     : &name "Hieu Trung Nguyen"
 description              : &description "personal description"
 url                      : https://hieunt91.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "HieuNT91/hieunt91.github.io/"
 author:
   # Biographic information
   avatar           : "HieuNT.jpg"
-  name             : "Hieu T. Nguyen"
+  name             : "Hieu Trung Nguyen"
   bio              : "SEEM PhD Student @ CUHK"
   location         : "Ha Noi - Viet Nam"
   employer         : "Chinese University of Hong Kong"

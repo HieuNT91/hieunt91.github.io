@@ -24,6 +24,9 @@ Hieu Trung Nguyen is an incoming PhD student at The Chinese University of Hong K
 *July 2022*:
 - Started a wonderful journey at VinAI Research
 
+# 📜 Academic Services 
+I serve as a reviewer for some reputable conferences: ICLR2025, WWW2025, NeurIPS 2024.
+
 # 📜 Publications
 1. Cold-start Recommendation by Personalized Embedding Region Elicitation, with Duy Nguyen, Khoa Doan and Viet Anh Nguyen. UAI 2024.
 
@@ -37,5 +40,6 @@ Hieu Trung Nguyen is an incoming PhD student at The Chinese University of Hong K
 
 
 # 🏵️ Honors and Awards
+- *July 2024*: ICML2024 Travel Grant! (Vienna, Austria)
 - *April 2022*: Bachelors Thesis with highest score! 
 - *September 2018 - April 2022*: Honor Student Scholarship for all Academic Years - UIT

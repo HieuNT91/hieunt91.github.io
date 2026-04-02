@@ -36,6 +36,7 @@ I am 2nd year PhD student at The Chinese University of Hong Kong (CUHK), advised
 I served as a reviewer for some reputable conferences: ICML2026, ICLR2026, ICML2025, ICLR2025, WWW2025, NeurIPS2024.
 
 # 🏵️ Honors and Awards
+- *July 2024*: ICLR2026 Travel Grant! (Rio de Janeiro, Brazil)
 - *July 2024*: ICML2024 Travel Grant! (Vienna, Austria)
 - *April 2022*: Bachelors Thesis with highest score.
 - *September 2018 - April 2022*: Honor Student Scholarship for all Academic Years - UIT

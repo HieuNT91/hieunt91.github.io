@@ -21,7 +21,7 @@ repository               : "HieuNT91/hieunt91.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "HieuNT.jpg"
+  # avatar           : "HieuNT.jpg"
   name             : "Hieu Trung Nguyen"
   bio              : "SEEM PhD Student @ CUHK"
   location         : "Ha Noi - Viet Nam"

@@ -22,17 +22,17 @@ I am currently open to internship opportunities and would love to connect. Pleas
 
 3. Mixture-of-Personas Language Models for Population Simulation, with Ngoc Bui, Shantanu Kumar, Julian Theodore, Weikang Qiu and Viet Anh Nguyen and Rex Ying. ACL 2025 (Findings) - [Paper](https://arxiv.org/pdf/2504.05019) 
 
-4. Structured Pruning for Diverse Best-of-N Reasoning Optimization, with Bao Nguyen and Viet Anh Nguyen. ACL 2025 (Findings) - [Paper](https://arxiv.org/abs/2506.03978) - [Code](https://github.com/HieuNT91/attention_pruning)
+4. Structured Pruning for Diverse Best-of-N Reasoning Optimization, with Bao Nguyen and Viet Anh Nguyen. ACL 2025 (Findings) - [Paper](https://arxiv.org/abs/2506.03978) / [Code](https://github.com/HieuNT91/attention_pruning)
 
 5. Task-driven Layerwise Additive Activation Intervention, with Bao Nguyen, Binh Nguyen and Viet Anh Nguyen. NAACL 2025 (Main) - [Paper](https://arxiv.org/abs/2502.06115)
 
 6. Cold-start Recommendation by Personalized Embedding Region Elicitation, with Duy Nguyen, Khoa Doan and Viet Anh Nguyen. UAI 2024. - [Paper](https://arxiv.org/abs/2406.00973) 
 
-7. Explaining Graph Neural Networks via Structure-aware Interaction Index, with Ngoc Bui, Viet Anh Nguyen and Rex Ying. ICML 2024. - [Paper](https://arxiv.org/abs/2405.14352) - [Code](https://github.com/ngocbh/MAGE/)
+7. Explaining Graph Neural Networks via Structure-aware Interaction Index, with Ngoc Bui, Viet Anh Nguyen and Rex Ying. ICML 2024. - [Paper](https://arxiv.org/abs/2405.14352) / [Code](https://github.com/ngocbh/MAGE/)
 
-8. Generative Conditional Distributions by Neural (Entropic) Optimal Transport, with Bao Nguyen, Binh Nguyen, and Viet Anh Nguyen. ICML 2024. - [Paper](https://arxiv.org/abs/2406.02317) - [Code](https://github.com/nguyenngocbaocmt02/GENTLE)
+8. Generative Conditional Distributions by Neural (Entropic) Optimal Transport, with Bao Nguyen, Binh Nguyen, and Viet Anh Nguyen. ICML 2024. - [Paper](https://arxiv.org/abs/2406.02317) / [Code](https://github.com/nguyenngocbaocmt02/GENTLE)
 
-9. Retrospective Feature Estimation for Continual Learning, with Nghia D. Nguyen, Ang Li, Hoang Pham, Viet Anh Nguyen, Khoa D. Doan. Transactions on Machine Learning Research (Featured Certification, J2C Certification) - [Paper](https://arxiv.org/abs/2406.17381) - [Code](https://github.com/mail-research/retrospective-feature-estimation)
+9. Retrospective Feature Estimation for Continual Learning, with Nghia D. Nguyen, Ang Li, Hoang Pham, Viet Anh Nguyen, Khoa D. Doan. Transactions on Machine Learning Research (Featured Certification, J2C Certification) - [Paper](https://arxiv.org/abs/2406.17381) / [Code](https://github.com/mail-research/retrospective-feature-estimation)
 
 10. Combining Soft-Actor Critic with Cross-Entropy Method for Policy Search in Continuous Control, with Khang Tran and Ngoc Hoang Luong. IEEE CEC 2022 (Oral)
 

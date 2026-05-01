@@ -18,7 +18,7 @@ I am currently open to internship opportunities and would love to connect. Pleas
 # 📜 Publications
 1. Adaptive Rollout Allocation for Online Reinforcement Learning with Verifiable Rewards, with Bao Nguyen, Wenao Ma, Yuzhi Zhao, Ruifeng She and Viet Anh Nguyen. ICLR 2026 - [Paper](https://arxiv.org/abs/2602.01601) - [Code](https://github.com/HieuNT91/VIP/)
 
-2. Reasoning Planning for Language Models, with Bao Nguyen, Ruifeng She, Xiaojin Fu and Viet Anh Nguyen. NeurIPS 2025 (Spotlight) - [Paper](https://arxiv.org/abs/2511.00521) - [Code](https://github.com/nguyenngocbaocmt02/EPIC)
+2. Reasoning Planning for Language Models, with Bao Nguyen, Ruifeng She, Xiaojin Fu and Viet Anh Nguyen. NeurIPS 2025 (Spotlight) - [Paper](https://arxiv.org/abs/2511.00521) / [Code](https://github.com/nguyenngocbaocmt02/EPIC)
 
 3. Mixture-of-Personas Language Models for Population Simulation, with Ngoc Bui, Shantanu Kumar, Julian Theodore, Weikang Qiu and Viet Anh Nguyen and Rex Ying. ACL 2025 (Findings) - [Paper](https://arxiv.org/pdf/2504.05019) 
 

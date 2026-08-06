@@ -4,9 +4,9 @@ This is the source for [hieunt91.github.io](https://hieunt91.github.io), a small
 
 ## Edit the site
 
-- Edit the biography, academic services, and awards in `index.md`.
+- Edit the biography and awards in `index.md`. Reviewer service is grouped by conference in the `academic_services` front matter; add or remove values from each conference's `years` list as needed.
 - Edit profile details and links in `_config.yml`.
-- Add or update publications in `_data/publications.yml`. Publications are shown in source order within year groups; records without a `year` appear in a final “Other publications” group.
+- Add or update publications in `_data/publications.yml`. Publications are shown in source order within year groups; records without a `year` appear in a final “Journals” group.
 - Add dated updates to `_data/news.yml`. The News section stays hidden while this file is empty.
 - Replace `images/HieuNT.jpg` or `resume/Hieu_Resume.pdf` without changing their filenames to keep their public URLs stable.
 

@@ -3,6 +3,15 @@ layout: default
 title: ""
 permalink: /
 home: true
+academic_services:
+  - conference: ICML
+    years: [2026, 2025]
+  - conference: ICLR
+    years: [2026, 2025]
+  - conference: WWW
+    years: [2025]
+  - conference: NeurIPS
+    years: [2024]
 ---
 
 <section class="hero" aria-labelledby="hero-title">
@@ -97,7 +106,7 @@ home: true
     {% for group in publication_groups %}
       {% if group.name == "" %}
         <div class="publication-group">
-          <h3>Other publications</h3>
+          <h3>Journals</h3>
           <ol class="publication-list">
             {% for publication in group.items %}
               <li>
@@ -124,13 +133,19 @@ home: true
     {% endfor %}
   </section>
 
-  <section id="academic-services" class="content-section" markdown="1">
-
-  <p class="section-label">{% if site.data.news and site.data.news.size > 0 %}04{% else %}03{% endif %} · Community</p>
-  <h2>Academic Services</h2>
-
-  I served as a reviewer for some reputable conferences: ICML2026, ICLR2026, ICML2025, ICLR2025, WWW2025, NeurIPS2024.
-
+  <section id="academic-services" class="content-section" aria-labelledby="academic-services-title">
+    <p class="section-label">{% if site.data.news and site.data.news.size > 0 %}04{% else %}03{% endif %} · Community</p>
+    <h2 id="academic-services-title">Academic Services</h2>
+    <ul class="service-list">
+      {% for service in page.academic_services %}
+        <li>
+          <span class="service-conference">{{ service.conference }}</span>
+          <span class="service-years" aria-label="Years">
+            {% for year in service.years %}<span>{{ year }}</span>{% endfor %}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
   </section>
 
   <section id="honors-and-awards" class="content-section" markdown="1">
@@ -138,6 +153,7 @@ home: true
   <p class="section-label">{% if site.data.news and site.data.news.size > 0 %}05{% else %}04{% endif %} · Recognition</p>
   <h2>Honors and Awards</h2>
 
+  - *2026*: [ICML 2026 Golden Reviewer](https://icml.cc/Conferences/2026/ProgramCommittee).
   - *July 2024*: ICLR2026 Travel Grant! (Rio de Janeiro, Brazil)
   - *July 2024*: ICML2024 Travel Grant! (Vienna, Austria)
   - *April 2022*: Bachelors Thesis with highest score.

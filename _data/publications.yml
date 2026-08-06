@@ -1,12 +1,12 @@
 - title: "Adaptive Rollout Allocation for Online Reinforcement Learning with Verifiable Rewards"
-  authors: "Bao Nguyen, Wenao Ma, Yuzhi Zhao, Ruifeng She and Viet Anh Nguyen"
+  authors: "Hieu Trung Nguyen, Bao Nguyen, Wenao Ma, Yuzhi Zhao, Ruifeng She and Viet Anh Nguyen"
   venue: "ICLR"
   year: 2026
   paper: "https://arxiv.org/abs/2602.01601"
   code: "https://github.com/HieuNT91/VIP/"
 
 - title: "Reasoning Planning for Language Models"
-  authors: "Bao Nguyen, Ruifeng She, Xiaojin Fu and Viet Anh Nguyen"
+  authors: "Bao Nguyen, Hieu Trung Nguyen, Ruifeng She, Xiaojin Fu and Viet Anh Nguyen"
   venue: "NeurIPS"
   year: 2025
   note: "Spotlight"
@@ -14,14 +14,14 @@
   code: "https://github.com/nguyenngocbaocmt02/EPIC"
 
 - title: "Mixture-of-Personas Language Models for Population Simulation"
-  authors: "Ngoc Bui, Shantanu Kumar, Julian Theodore, Weikang Qiu and Viet Anh Nguyen and Rex Ying"
+  authors: "Ngoc Bui, Hieu Trung Nguyen, Shantanu Kumar, Julian Theodore, Weikang Qiu, Viet Anh Nguyen and Rex Ying"
   venue: "ACL"
   year: 2025
   note: "Findings"
   paper: "https://arxiv.org/pdf/2504.05019"
 
 - title: "Structured Pruning for Diverse Best-of-N Reasoning Optimization"
-  authors: "Bao Nguyen and Viet Anh Nguyen"
+  authors: "Hieu Trung Nguyen, Bao Nguyen and Viet Anh Nguyen"
   venue: "ACL"
   year: 2025
   note: "Findings"
@@ -29,41 +29,41 @@
   code: "https://github.com/HieuNT91/attention_pruning"
 
 - title: "Task-driven Layerwise Additive Activation Intervention"
-  authors: "Bao Nguyen, Binh Nguyen and Viet Anh Nguyen"
+  authors: "Hieu Trung Nguyen, Bao Nguyen, Binh Nguyen and Viet Anh Nguyen"
   venue: "NAACL"
   year: 2025
   note: "Main"
   paper: "https://arxiv.org/abs/2502.06115"
 
 - title: "Cold-start Recommendation by Personalized Embedding Region Elicitation"
-  authors: "Duy Nguyen, Khoa Doan and Viet Anh Nguyen"
+  authors: "Hieu Trung Nguyen, Duy Nguyen, Khoa Doan and Viet Anh Nguyen"
   venue: "UAI"
   year: 2024
   paper: "https://arxiv.org/abs/2406.00973"
 
 - title: "Explaining Graph Neural Networks via Structure-aware Interaction Index"
-  authors: "Ngoc Bui, Viet Anh Nguyen and Rex Ying"
+  authors: "Ngoc Bui, Hieu Trung Nguyen, Viet Anh Nguyen and Rex Ying"
   venue: "ICML"
   year: 2024
   paper: "https://arxiv.org/abs/2405.14352"
   code: "https://github.com/ngocbh/MAGE/"
 
 - title: "Generative Conditional Distributions by Neural (Entropic) Optimal Transport"
-  authors: "Bao Nguyen, Binh Nguyen and Viet Anh Nguyen"
+  authors: "Bao Nguyen, Binh Nguyen, Hieu Trung Nguyen and Viet Anh Nguyen"
   venue: "ICML"
   year: 2024
   paper: "https://arxiv.org/abs/2406.02317"
   code: "https://github.com/nguyenngocbaocmt02/GENTLE"
 
 - title: "Retrospective Feature Estimation for Continual Learning"
-  authors: "Nghia D. Nguyen, Ang Li, Hoang Pham, Viet Anh Nguyen, Khoa D. Doan"
+  authors: "Nghia D. Nguyen, Hieu Trung Nguyen, Ang Li, Hoang Pham, Viet Anh Nguyen and Khoa D. Doan"
   venue: "Transactions on Machine Learning Research"
   note: "Featured Certification, J2C Certification"
   paper: "https://arxiv.org/abs/2406.17381"
   code: "https://github.com/mail-research/retrospective-feature-estimation"
 
 - title: "Combining Soft-Actor Critic with Cross-Entropy Method for Policy Search in Continuous Control"
-  authors: "Khang Tran and Ngoc Hoang Luong"
+  authors: "Hieu Trung Nguyen, Khang Tran and Ngoc Hoang Luong"
   venue: "IEEE CEC"
   year: 2022
   note: "Oral"

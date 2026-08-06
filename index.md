@@ -52,7 +52,7 @@ academic_services:
 
   While I have broad experience in recommender systems, graph neural networks, and continual learning, my current research focuses on reasoning optimization for Transformer-based Language Models. I work to improve LLM reasoning performance, diversity, and efficiency using techniques like LLM Post-Training (GRPO, self-distillation), KV Cache Compression, model pruning, and routing.
 
-  I am currently open to internship opportunities and would love to connect. Please feel free to reach out via email ([hilljun.2000@gmail.com](mailto:hilljun.2000@gmail.com)) or WeChat (ID: `junhill9961`).
+  Please feel free to reach out via email ([hilljun.2000@gmail.com](mailto:hilljun.2000@gmail.com)) or WeChat (ID: `junhill9961`).
 
   </section>
 

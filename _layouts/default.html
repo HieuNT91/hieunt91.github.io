@@ -1,31 +1,68 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | default: 'en' | slice: 0, 2 }}">
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+
+    <title>{% if page.title and page.title != '' %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.title | escape }}">
+    <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ site.author.avatar | absolute_url }}">
   </head>
-
   <body>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav aria-label="Main navigation">
+          <a href="{{ '/#about-me' | relative_url }}">About Me</a>
+          {% if site.data.news and site.data.news.size > 0 %}
+            <a href="{{ '/#news' | relative_url }}">News</a>
+          {% endif %}
+          <a href="{{ '/#publications' | relative_url }}">Publications</a>
+        </nav>
+      </div>
+    </header>
 
-    {{ content }}
+    <div class="page-shell">
+      <aside class="profile" aria-label="Author profile">
+        <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.name }}">
+        <div class="profile-summary">
+          <h2>{{ site.author.name }}</h2>
+          <p>{{ site.author.bio }}</p>
+        </div>
+        <dl class="profile-details">
+          <div>
+            <dt>Location</dt>
+            <dd>{{ site.author.location }}</dd>
+          </div>
+          <div>
+            <dt>Affiliation</dt>
+            <dd>{{ site.author.employer }}</dd>
+          </div>
+        </dl>
+        <ul class="profile-links">
+          <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+          <li><a href="{{ site.author.scholar }}">Google Scholar</a></li>
+          <li><a href="{{ site.author.github }}">GitHub</a></li>
+          <li><a href="{{ site.author.resume | relative_url }}">Résumé</a></li>
+        </ul>
+      </aside>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+      <main id="content" class="content">
+        {{ content }}
+      </main>
     </div>
 
-    {% include scripts.html %}
-
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.</p>
+    </footer>
   </body>
 </html>

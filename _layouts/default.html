@@ -15,51 +15,30 @@
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:image" content="{{ site.author.avatar | absolute_url }}">
   </head>
-  <body>
+  <body{% if page.home %} class="home-page"{% else %} class="interior-page"{% endif %}>
     <a class="skip-link" href="#content">Skip to content</a>
 
     <header class="site-header">
       <div class="header-inner">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <a class="site-title" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+          <span class="site-mark" aria-hidden="true">HN</span>
+          <span>{{ site.title }}</span>
+        </a>
         <nav aria-label="Main navigation">
-          <a href="{{ '/#about-me' | relative_url }}">About Me</a>
+          <a href="{{ '/' | relative_url }}#about-me">About</a>
           {% if site.data.news and site.data.news.size > 0 %}
-            <a href="{{ '/#news' | relative_url }}">News</a>
+            <a href="{{ '/' | relative_url }}#news">News</a>
           {% endif %}
-          <a href="{{ '/#publications' | relative_url }}">Publications</a>
+          <a href="{{ '/' | relative_url }}#publications">Publications</a>
+          <a href="{{ '/' | relative_url }}#academic-services">Service</a>
+          <a href="{{ '/' | relative_url }}#honors-and-awards">Honors</a>
         </nav>
       </div>
     </header>
 
-    <div class="page-shell">
-      <aside class="profile" aria-label="Author profile">
-        <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.name }}">
-        <div class="profile-summary">
-          <h2>{{ site.author.name }}</h2>
-          <p>{{ site.author.bio }}</p>
-        </div>
-        <dl class="profile-details">
-          <div>
-            <dt>Location</dt>
-            <dd>{{ site.author.location }}</dd>
-          </div>
-          <div>
-            <dt>Affiliation</dt>
-            <dd>{{ site.author.employer }}</dd>
-          </div>
-        </dl>
-        <ul class="profile-links">
-          <li><a href="mailto:{{ site.author.email }}">Email</a></li>
-          <li><a href="{{ site.author.scholar }}">Google Scholar</a></li>
-          <li><a href="{{ site.author.github }}">GitHub</a></li>
-          <li><a href="{{ site.author.resume | relative_url }}">Résumé</a></li>
-        </ul>
-      </aside>
-
-      <main id="content" class="content">
-        {{ content }}
-      </main>
-    </div>
+    <main id="content" class="page-shell">
+      {{ content }}
+    </main>
 
     <footer class="site-footer">
       <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.</p>

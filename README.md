@@ -6,7 +6,7 @@ This is the source for [hieunt91.github.io](https://hieunt91.github.io), a small
 
 - Edit the biography, academic services, and awards in `index.md`.
 - Edit profile details and links in `_config.yml`.
-- Add or update publications in `_data/publications.yml`.
+- Add or update publications in `_data/publications.yml`. Publications are shown in source order within year groups; records without a `year` appear in a final “Other publications” group.
 - Add dated updates to `_data/news.yml`. The News section stays hidden while this file is empty.
 - Replace `images/HieuNT.jpg` or `resume/Hieu_Resume.pdf` without changing their filenames to keep their public URLs stable.
 

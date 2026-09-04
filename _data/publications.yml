@@ -1,3 +1,9 @@
+- title: "Noisy Test-Time Reinforcement Learning for Code LLMs"
+  authors: "Xikai Yang, Hieu Trung Nguyen, Dunyuan Xu, Yuzhi Zhao, Jinpeng Li, Wenao Ma and Pheng-Ann Heng"
+  venue: "EMNLP"
+  year: 2026
+  note: "Main"
+
 - title: "Adaptive Rollout Allocation for Online Reinforcement Learning with Verifiable Rewards"
   authors: "Hieu Trung Nguyen, Bao Nguyen, Wenao Ma, Yuzhi Zhao, Ruifeng She and Viet Anh Nguyen"
   venue: "ICLR"

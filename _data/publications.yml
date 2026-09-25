@@ -1,3 +1,10 @@
+- title: "Make Each Token Count: Towards Improving Long-Context Performance with KV Cache Eviction"
+  authors: "Ngoc Bui, Hieu Trung Nguyen, Arman Cohan and Rex Ying"
+  venue: "NeurIPS"
+  year: 2026
+  paper: "https://arxiv.org/html/2605.09649v1"
+  code: "https://github.com/ngocbh/trimkv.git"
+
 - title: "Noisy Test-Time Reinforcement Learning for Code LLMs"
   authors: "Xikai Yang, Hieu Trung Nguyen, Dunyuan Xu, Yuzhi Zhao, Jinpeng Li, Wenao Ma and Pheng-Ann Heng"
   venue: "EMNLP"
